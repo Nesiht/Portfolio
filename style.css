@@ -9,6 +9,7 @@
 --main-font: 'Montserrat';
 --second-font: 'Roboto';
 --main-color: #ffffff;
+--second-color: #F4F4F4;
 }
 
 /* 
@@ -27,6 +28,17 @@ font-family: 'Roboto', ;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--second-color);
+}
+
+.container:nth-child(odd) {
+  background-color: var(--main-color);
 }
 
 .icon-container {
@@ -79,14 +91,8 @@ font-family: 'Roboto', ;
   background-size: cover;
 }
 
-.intro-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.intro {
   height: 35vh;
-  width: 100vw;
-  background-color: #F4F4F4;
 }
 
 .intro-text {
