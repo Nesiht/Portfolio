@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: var(--main-font);
+  overflow-x: hidden;
 }
 
 :root {
@@ -32,6 +33,7 @@ font-family: 'Roboto', ;
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--second-color);
@@ -48,6 +50,7 @@ font-family: 'Roboto', ;
   align-items: center;
   height: 8vh;
   width: 75vw;
+  overflow: hidden;
 }
 
 .icon-box {
@@ -95,7 +98,11 @@ font-family: 'Roboto', ;
   height: 35vh;
 }
 
-.intro-text {
+.tech {
+  height: 45vh;
+}
+
+.text {
   display: flex;
   align-items: center;
   height: 20vh;
@@ -109,6 +116,18 @@ font-family: 'Roboto', ;
   letter-spacing: 1.12px;
   font-family: var(--second-font);
   color: var(--main-color);
+}
+
+.text-title {
+  background-color: #00a8cc;
+  padding: 1vh;
+  font-family: var(--main-font);
+  font-weight: 700;
+  border-radius: 1vh;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .header-h1 {
