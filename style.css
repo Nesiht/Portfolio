@@ -72,19 +72,29 @@ font-family: 'Roboto', ;
   align-items: center;
   height: 10vw;
   width: 10vw;
+  border: 3px solid white;
   border-radius: 100%;
   background-image: url(./img/pic_me.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.intro-box {
+.intro-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 35vh;
   width: 100vw;
-  background-color: darkblue;
+  background-color: #F4F4F4;
+}
+
+.intro-text {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  width: 50vw;
+  font-family: var(--main-font);
 }
 
 .text-uppercase {
