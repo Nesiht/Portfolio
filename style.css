@@ -23,7 +23,10 @@ font-family: 'Roboto', ;
   justify-content: center;
   height: 65vh;
   width: 100vw;
-  background-color: blueviolet;
+  background-image: url(./img/blue.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .icon-container {
@@ -70,7 +73,9 @@ font-family: 'Roboto', ;
   height: 10vw;
   width: 10vw;
   border-radius: 100%;
-  background-color: chartreuse;
+  background-image: url(./img/pic_me.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .intro-box {
