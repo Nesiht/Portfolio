@@ -10,7 +10,7 @@
 --second-font: 'Roboto';
 --main-color: #ffffff;
 --second-color: #F4F4F4;
---third-color: #00a8cc;
+--third-color: #007FC6;
 }
 
 /* 
@@ -199,6 +199,14 @@ font-family: 'Roboto', ;
   justify-content: space-evenly;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: var(--third-color);
+}
 
 
 .card-image {
