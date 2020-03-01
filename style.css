@@ -47,7 +47,18 @@ font-family: 'Roboto', ;
   width: 7vh;
   height: 7vh;
   border: 3px solid white;
-  border-radius: 100%;;
+  border-radius: 100%;
+}
+
+.icon-box-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  width: 16vh;
+  height: 16vh;
+  border: 3px solid var(--third-color);
+  border-radius: 100%;
 }
 
 .icon {
@@ -115,7 +126,6 @@ font-family: 'Roboto', ;
 .block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -125,15 +135,40 @@ font-family: 'Roboto', ;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 70vh;
   width: 60vw;
+}
+
+.block-cards-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   width: 25vw;
-  height: 50vh;
+}
+
+.card-small {
+  display: flex;
+  flex-direction: column;
+  width: 53vw;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60vw;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--second-font);
 }
 
 .intro {
@@ -146,32 +181,27 @@ font-family: 'Roboto', ;
 
 .project {
   height: 150vh;
-}
-
-.articles {
-  height: 100vh;
-}
-
-.container-project {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  /* margin-top: 3vw; 
-  margin-bottom: 3vw; */
-  height: 150vh;
-  width: 60vw;
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-  width: 25vw;
+.article {
+  height: 110vh;
+  justify-content: space-evenly;
+}
+
+.skill {
   height: 50vh;
+  justify-content: space-evenly;
 }
 
-.project-image {
+.external {
+  height: 50vh;
+  justify-content: space-evenly;
+}
+
+
+
+.card-image {
   height: 25vh;
   width: 25vw;
 }
@@ -207,12 +237,16 @@ font-family: 'Roboto', ;
   color: var(--main-color);
 }
 
+.text-highlight {
+  color: var(--third-color);
+}
+
 .text-title {
   background-color: var(--third-color);
   padding: 1vh;
   font-family: var(--main-font);
   font-weight: 700;
-  border-radius: 1vh;
+  border-radius: .5vh;
 }
 
 .text-center {
@@ -241,7 +275,6 @@ a:active {
   color: black;
   text-decoration: none;
 }
-
 
 /* Mobile-landscape */
 @media (min-width: 480px) {}
