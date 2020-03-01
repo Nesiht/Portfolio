@@ -112,6 +112,30 @@ font-family: 'Roboto', ;
   background-color: var(--main-color);
 }
 
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+  width: 60vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 50vh;
+}
+
 .intro {
   height: 35vh;
 }
@@ -124,14 +148,19 @@ font-family: 'Roboto', ;
   height: 150vh;
 }
 
+.articles {
+  height: 100vh;
+}
+
 .container-project {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 3vw; /* might need to change this */
-  height: 100vh;
+  /* margin-top: 3vw; 
+  margin-bottom: 3vw; */
+  height: 150vh;
   width: 60vw;
 }
 
@@ -139,6 +168,7 @@ font-family: 'Roboto', ;
   display: flex;
   flex-direction: column;
   width: 25vw;
+  height: 50vh;
 }
 
 .project-image {
@@ -151,7 +181,7 @@ font-family: 'Roboto', ;
   margin-bottom: 1vh;
 }
 
-.project-tag {
+.tag {
   font-family: var(--second-font);
   background-color: var(--third-color);
   color: #000;
