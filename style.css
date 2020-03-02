@@ -46,7 +46,6 @@
 .icon-box-large {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 1vh;
   width: 16vh;
   height: 16vh;
@@ -163,6 +162,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30vw;
 }
 
 .intro {
@@ -350,6 +350,10 @@ a:active {
 
   .row-container {
     width: 60vw;
+  }
+
+  .lists {
+    width: auto;
   }
 
   .intro {
