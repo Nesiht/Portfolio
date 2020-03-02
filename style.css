@@ -29,7 +29,7 @@
   justify-content: flex-end;
   align-items: center;
   height: 8vh;
-  width: 80vw;
+  width: 95vw;
 }
 
 .icon-box {
@@ -47,8 +47,8 @@
   display: flex;
   justify-content: center;
   margin: 1vh;
-  width: 16vh;
-  height: 16vh;
+  width: 8vh;
+  height: 8vh;
   border: 3px solid var(--third-color);
   border-radius: 100%;
   background-color: var(--third-color);
@@ -64,16 +64,16 @@
   flex-direction: column;
   justify-content: center;
   height: 30vh;
-  width: 50vw;
+  width: 70vw;
   margin-left: 10vw;
 }
 
 .header-image {
   position: absolute;
-  top: 49vh;
+  top: 50vh;
   left: 60vw;
-  height: 20vw;
-  width: 20vw;
+  height: 35vw;
+  width: 35vw;
   border: 3px solid var(--main-color);
   border-radius: 100%;
   background-image: url(./img/pic_me.jpg);
@@ -84,7 +84,7 @@
 .header-h1 {
   text-align: left;
   color: var(--main-color);
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .header-h2 {
@@ -135,7 +135,15 @@
   align-items: center;
 }
 
-.card {
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 50vh;
+}
+
+.article-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,11 +151,19 @@
   height: 60vh;
 }
 
-.card-small {
+.project-card-small {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 15vh;
+  width: 80vw;
+}
+
+.article-card-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 6vh;
   width: 80vw;
 }
 
@@ -174,11 +190,11 @@
 }
 
 .project {
-  height: 350vh;
+  height: 310vh;
 }
 
 .article {
-  height: 200vh;
+  height: 180vh;
   justify-content: space-evenly;
 }
 
@@ -202,7 +218,7 @@ footer {
 }
 
 .card-image {
-  height: 30vh;
+  height: 25vh;
   width: 80vw;
 }
 
@@ -285,6 +301,10 @@ a:active {
   text-decoration: none;
 }
 
+.hide-mobile {
+  display: none;
+}
+
 /* Mobile-landscape */
 @media (min-width: 480px) {}
 
@@ -302,9 +322,14 @@ a:active {
   }
 
   .icon-box {
-    margin: 1vh;
     width: 7vh;
     height: 7vh;
+  }
+
+  .icon-box-large {
+    margin: 1vh;
+    width: 16vh;
+    height: 16vh;
   }
 
   .header-description {
@@ -338,17 +363,27 @@ a:active {
     width: 60vw;
   }
 
-  .card {
+  .project-card {
     width: 25vw;
     height: 50vh;
   }
-
-  .card-small {
-    height: 8vh;
-    width: 53vw;
+  
+  .article-card {
+    width: 25vw;
+    height: 50vh;
+  }
+  
+  .project-card-small {
+    height: 10vh;
+    width: 60vw;
+  }
+  
+  .article-card-small {
+    height: 5vh;
+    width: 60vw;
   }
 
-  .row-container {
+   .row-container {
     width: 60vw;
   }
 
@@ -365,7 +400,7 @@ a:active {
   }
 
   .project {
-    height: 170vh;
+    height: 190vh;
   }
 
   .article {
