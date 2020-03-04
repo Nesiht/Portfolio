@@ -224,6 +224,7 @@ footer {
 }
 
 .card-image {
+  object-fit: cover;
   height: 25vh;
   width: 80vw;
 }
@@ -822,8 +823,8 @@ li {
   }
 
   .plutt-circle {
-    height: 2.5vh;
-    width: 2.5vh;
+    height: 2vh;
+    width: 2vh;
   }
 
 }
