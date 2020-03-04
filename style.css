@@ -220,6 +220,7 @@ footer {
   align-items: center;
   height: 30vh;
   background-color: var(--third-color);
+  line-height: 2em;
 }
 
 .card-image {
