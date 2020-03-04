@@ -185,6 +185,11 @@
   height: 35vh;
 }
 
+.intro-text {
+  display: inline-block;
+  width: 80vw;
+}
+
 .tech {
   height: 40vh;
 }
@@ -237,10 +242,6 @@ footer {
 
 .text-rob {
   font-family: var(--second-font);
-}
-
-.text {
-  width: 80vw;
 }
 
 .text-header {
@@ -303,6 +304,26 @@ a:active {
 
 li {
   list-style-type: none;
+}
+
+.plutt-container {
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.plutt-square {
+  height: .4vh;
+  width: 6vh;
+  background-color: var(--third-color);
+}
+
+.plutt-circle {
+  height: 2vh;
+  width: 2vh;
+  border-radius: 100%;
+  margin-left: -1vh;
+  background-color: var(--third-color);
 }
 
 .hide-mobile {
@@ -505,6 +526,11 @@ li {
     height: 35vh;
   }
 
+  .intro-text {
+    display: inline-block;
+    width: 80vw;
+  }
+
   .tech {
     height: 40vh;
   }
@@ -536,6 +562,11 @@ li {
 
   .text-header {
     font-size: 1em;
+  }
+  
+  .plutt-circle {
+    height: 1.5vh;
+    width: 1.5vh;
   }
 }
 
@@ -620,6 +651,11 @@ li {
     height: 35vh;
   }
 
+  .intro-text {
+    display: inline-block;
+    width: 80vw;
+  }
+
   .tech {
     height: 40vh;
   }
@@ -653,6 +689,10 @@ li {
     font-size: 1em;
   }
 
+  .plutt-circle {
+    height: 1.2vh;
+    width: 1.2vh;
+  }
 }
 
 /* Laptop and larger */
@@ -738,6 +778,11 @@ li {
     height: 35vh;
   }
 
+  .intro-text {
+    display: inline-block;
+    width: 50vw;
+  }
+
   .tech {
     height: 40vh;
   }
@@ -773,6 +818,11 @@ li {
 
   .text-header {
     font-size: 1em;
+  }
+
+  .plutt-circle {
+    height: 2.5vh;
+    width: 2.5vh;
   }
 
 }
