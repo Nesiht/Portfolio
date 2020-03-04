@@ -301,6 +301,10 @@ a:active {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 .hide-mobile {
   display: none;
 }
