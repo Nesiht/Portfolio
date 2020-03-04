@@ -146,7 +146,7 @@
 .article-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 80vw;
   height: 60vh;
 }
@@ -204,7 +204,7 @@
 }
 
 .external {
-  height: 50vh;
+  height: 30vh;
   justify-content: space-evenly;
 }
 
@@ -213,7 +213,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 30vh;
   background-color: var(--third-color);
 }
 
@@ -306,13 +306,350 @@ a:active {
 }
 
 /* Mobile-landscape */
-@media (min-width: 480px) {}
+@media (min-width: 480px) {
+
+  .icon-container {
+    width: 95vw;
+  }
+
+  .icon-box {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .icon-box-large {
+    margin: 1vh;
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .header-description {
+    height: 30vh;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .header-image {
+    top: 50vh;
+    left: 60vw;
+    height: 35vw;
+    width: 35vw;
+  }
+
+  .header-h1 {
+    font-size: 3.5em;
+  }
+
+  .header-h2 {
+    font-size: 2em;
+  }
+
+  .header-h3 {
+    font-size: 1.5em;
+    margin: 1vh 0vh 1vh 0vh;
+  }
+
+  .block-cards {
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .project-card {
+    height: 45vh;
+    width: 70vw;
+  }
+  
+  .article-card {
+    height: 50vh;
+    width: 80vw;
+  }
+  
+  .project-card-small {
+    height: 10vh;
+    width: 80vw;
+  }
+  
+  .article-card-small {
+    height: 5vh;
+    width: 80vw;
+  }
+
+   .row-container {
+    width: 80vw;
+  }
+
+  .lists {
+    width: auto;
+  }
+
+  .intro {
+    height: 35vh;
+  }
+
+  .tech {
+    height: 40vh;
+  }
+
+  .project {
+    height: 280vh;
+  }
+
+  .article {
+    height: 160vh;
+  }
+
+  .skill {
+    height: 50vh;
+  }
+
+  .external {
+    height: 50vh;
+  }
+
+  .card-image {
+    height: 25vh;
+    width: 80vw;
+  }
+
+  .text {
+    width: 80vw;
+  }
+
+  .text-header {
+    font-size: 1em;
+  }
+}
 
 /* Tablet-portrait */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  
+  .icon-container {
+    width: 95vw;
+  }
+
+  .icon-box {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .icon-box-large {
+    margin: 1vh;
+    width: 14vh;
+    height: 14vh;
+  }
+
+  .header-description {
+    height: 30vh;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .header-image {
+    top: 45vh;
+    left: 65vw;
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .header-h1 {
+    font-size: 3.5em;
+  }
+
+  .header-h2 {
+    font-size: 2em;
+  }
+
+  .header-h3 {
+    font-size: 1.5em;
+    margin: 1vh 0vh 1vh 0vh;
+  }
+
+  .block-cards {
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .project-card {
+    height: 45vh;
+    width: 70vw;
+  }
+  
+  .article-card {
+    height: 50vh;
+    width: 80vw;
+  }
+  
+  .project-card-small {
+    height: 10vh;
+    width: 80vw;
+  }
+  
+  .article-card-small {
+    height: 5vh;
+    width: 80vw;
+  }
+
+   .row-container {
+    width: 80vw;
+  }
+
+  .lists {
+    width: auto;
+  }
+
+  .intro {
+    height: 35vh;
+  }
+
+  .tech {
+    height: 40vh;
+  }
+
+  .project {
+    height: 280vh;
+  }
+
+  .article {
+    height: 160vh;
+  }
+
+  .skill {
+    height: 50vh;
+  }
+
+  .external {
+    height: 50vh;
+  }
+
+  .card-image {
+    height: 25vh;
+    width: 80vw;
+  }
+
+  .text {
+    width: 80vw;
+  }
+
+  .text-header {
+    font-size: 1em;
+  }
+}
 
 /* Tablet-landscape */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+  .icon-container {
+    width: 95vw;
+  }
+
+  .icon-box {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .icon-box-large {
+    margin: 1vh;
+    width: 14vh;
+    height: 14vh;
+  }
+
+  .header-description {
+    height: 30vh;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .header-image {
+    top: 40vh;
+    left: 65vw;
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .header-h1 {
+    font-size: 3.5em;
+  }
+
+  .header-h2 {
+    font-size: 2em;
+  }
+
+  .header-h3 {
+    font-size: 1.5em;
+    margin: 1vh 0vh 1vh 0vh;
+  }
+
+  .block-cards {
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .project-card {
+    height: 45vh;
+    width: 70vw;
+  }
+  
+  .article-card {
+    height: 50vh;
+    width: 80vw;
+  }
+  
+  .project-card-small {
+    height: 10vh;
+    width: 80vw;
+  }
+  
+  .article-card-small {
+    height: 5vh;
+    width: 80vw;
+  }
+
+   .row-container {
+    width: 80vw;
+  }
+
+  .lists {
+    width: auto;
+  }
+
+  .intro {
+    height: 35vh;
+  }
+
+  .tech {
+    height: 40vh;
+  }
+
+  .project {
+    height: 280vh;
+  }
+
+  .article {
+    height: 160vh;
+  }
+
+  .skill {
+    height: 50vh;
+  }
+
+  .external {
+    height: 50vh;
+  }
+
+  .card-image {
+    height: 25vh;
+    width: 80vw;
+  }
+
+  .text {
+    width: 80vw;
+  }
+
+  .text-header {
+    font-size: 1em;
+  }
+
+}
 
 /* Laptop and larger */
 @media (min-width: 1200px) {
@@ -360,12 +697,14 @@ a:active {
 
   .block-cards {
     flex-direction: row;
+    justify-content: space-evenly;
     width: 60vw;
   }
 
   .project-card {
     width: 25vw;
     height: 50vh;
+    align-items: flex-start;
   }
   
   .article-card {
@@ -375,12 +714,12 @@ a:active {
   
   .project-card-small {
     height: 10vh;
-    width: 60vw;
+    width:  50vw;
   }
   
   .article-card-small {
     height: 5vh;
-    width: 60vw;
+    width: 50vw;
   }
 
    .row-container {
@@ -412,6 +751,10 @@ a:active {
   }
 
   .external {
+    height: 50vh;
+  }
+
+  footer {
     height: 50vh;
   }
 
